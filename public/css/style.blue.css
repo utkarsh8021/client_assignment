@@ -63,7 +63,7 @@ section {
 .title {
   display: inline-block;
   font-size: 2.9rem;
-  font-weight: 100;
+  font-weight: 600;
   padding: 10px 0;
   margin-bottom: 44px;
   text-align: center;
@@ -72,8 +72,8 @@ section {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.2;
-  color: #555;
-  margin-top: 20px;
+  color: black;
+  margin-top: 80px;
   letter-spacing: 0;
 }
 
