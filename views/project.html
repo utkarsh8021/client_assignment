@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Worker | responsive portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="/public/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="/public/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="/public/vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="/public/vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="/public/css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="/public/css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="/public/img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+
+  <body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container"><a href="#intro" class="navbar-brand scrollTo">IT Worker</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+            <div id="navbarcollapse" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link link-scroll">Intro</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link link-scroll">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link link-scroll">Services</a></li>
+                <li class="nav-item"><a href="project.html" class="nav-link link-scroll">My work</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link link-scroll">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+    <section id="references">
+        <div class="container">
+          <div class="col-sm-12">
+            <div class="mb-5 text-center">
+              <h2 data-animate="fadeInUp" class="title">My work</h2>
+              <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+            </div>
+            <ul id="filter" data-animate="fadeInUp">
+              <li class="active"><a href="#" data-filter="all">All</a></li>
+              <li><a href="#" data-filter="webdesign">Webdesign</a></li>
+              <li><a href="#" data-filter="seo">SEO</a></li>
+              <li><a href="#" data-filter="marketing">Marketing</a></li>
+              <li><a href="#" data-filter="other">Other</a></li>
+            </ul>
+            <div id="detail">
+              <div class="row">
+                <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                  <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                  <div class="text-center">
+                    <h1 id="detail-title" class="title"></h1>
+                  </div>
+                  <div id="detail-content"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Reference detail-->
+            <div id="references-masonry" data-animate="fadeInUp">
+              <div class="row">
+                    <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-1.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-2.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name 2</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/main-slider3.jpg,public/img/main-slider1.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-3.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name 3</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-4.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name 4</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-5.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name 5</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-6.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name 6</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-7.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                      <div class="reference"><a href="#"><img src="public/img/portfolio-8.jpg" alt="" class="img-fluid">
+                          <div class="overlay">
+                            <div class="inner">
+                              <h3 class="h4 reference-title">Project name</h3>
+                              <p>Short project description goes here...</p>
+                            </div>
+                          </div></a>
+                        <div data-images="public/img/main-slider1.jpg,public/img/main-slider2.jpg,public/img/main-slider3.jpg" class="sr-only reference-description">
+                          <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                          <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                          <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-lg-left">
+              <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+            </div>
+            <!-- /.6-->
+            <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+              <p>© 2018 Your name goes here. All rights reserved.</p>
+            </div>
+            <div class="col-12 mt-4">
+              <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+              <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- JavaScript files-->
+      <script src="/public/vendor/jquery/jquery.min.js"></script>
+      <script src="/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="/public/vendor/jquery.cookie/jquery.cookie.js"> </script>
+      <script src="/public/vendor/owl.carousel/owl.carousel.min.js"></script>
+      <script src="/public/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+      <script src="/public/vendor/jquery.counterup/jquery.counterup.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+      <script src="/public/js/front.js"></script>
+    </body>
+  </html>
